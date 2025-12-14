@@ -515,9 +515,10 @@ body {
 }
 
 
+
 .next-btn {
-  position: absolute;
-  bottom: 25px;
+  position: fixed;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 55px;
@@ -530,6 +531,7 @@ body {
   animation: bounce 1.5s infinite;
    z-index: 99999;
 }
+
 
 .prev-btn {
   position: fixed;
